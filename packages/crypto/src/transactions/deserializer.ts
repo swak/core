@@ -1,3 +1,4 @@
+import { Memoize } from "@typescript-plus/fast-memoize-decorator";
 import ByteBuffer from "bytebuffer";
 import { TransactionTypes } from "../enums";
 import { MalformedTransactionBytesError, TransactionVersionError } from "../errors";
@@ -9,6 +10,7 @@ import { TransactionTypeFactory } from "./types";
 
 // Reference: https://github.com/ArkEcosystem/AIPs/blob/master/AIPS/aip-11.md
 class Deserializer {
+    @Memoize()
     public deserialize(serialized: string | Buffer): ITransaction {
         const data = {} as ITransactionData;
 

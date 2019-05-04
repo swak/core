@@ -1,3 +1,4 @@
+import { Memoize } from "@typescript-plus/fast-memoize-decorator";
 import ByteBuffer from "bytebuffer";
 import { IBlockData, ITransaction } from "../interfaces";
 import { configManager } from "../managers";
@@ -6,6 +7,7 @@ import { BigNumber } from "../utils";
 import { Block } from "./block";
 
 class Deserializer {
+    @Memoize()
     public deserialize(
         serializedHex: string,
         headerOnly: boolean = false,

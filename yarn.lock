@@ -3073,6 +3073,13 @@
   resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.12.tgz#45dd1d0638e8c8f153e87d296907659296873916"
   integrity sha512-SOhuU4wNBxhhTHxYaiG5NY4HBhDIDnJF60GU+2LqHAdKKer86//e4yg69aENCtQ04n0ovz+tq2YPME5t5yp4pw==
 
+"@typescript-plus/fast-memoize-decorator@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@typescript-plus/fast-memoize-decorator/-/fast-memoize-decorator-0.1.0.tgz#0749c0ef60cfca71d4f26fc2d3232afb97df7894"
+  integrity sha512-OViz04jbmg7yyPso2rgrn/hEuXeELU2yHkBpdultWyvbyRRHrkK9ZD+i9jYbVgJGE6gJ5iz7HYOXZ2ORHbqlpw==
+  dependencies:
+    fast-memoize "^2.3.2"
+
 "@tyriar/fibonacci-heap@^2.0.7":
   version "2.0.9"
   resolved "https://registry.yarnpkg.com/@tyriar/fibonacci-heap/-/fibonacci-heap-2.0.9.tgz#df3dcbdb1b9182168601f6318366157ee16666e9"
@@ -6183,6 +6190,11 @@ fast-levenshtein@^2.0.6, fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+
+fast-memoize@^2.3.2:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/fast-memoize/-/fast-memoize-2.5.1.tgz#c3519241e80552ce395e1a32dcdde8d1fd680f5d"
+  integrity sha512-xdmw296PCL01tMOXx9mdJSmWY29jQgxyuZdq0rEHMu+Tpe1eOEtCycoG6chzlcrWsNgpZP7oL8RiQr7+G6Bl6g==
 
 fast-redact@^1.4.4:
   version "1.5.0"
